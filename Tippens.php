@@ -7,7 +7,7 @@
 
     <body>
         <div id="form-cont" name="form-cont">
-            <form action="Results.php" method="Get" id="form" class="form">
+            <form action="Results.php" method="get" id="form" class="form">
                 <div class="SystemOU">
                     <input type="radio" class="radio" value="IS" name="Units" id="IS" checked>
                     <label for="IS">SI</label>
@@ -27,6 +27,8 @@
                     <label for="Accel" id="lbl2">Aceleración:</label>
                     <input type="number" step="any" placeholder="m/s²" name="Accel" id="Accel-imp">
                     <input type="submit" value="Calcular">
+                    <label for="res">Resultado:</label>
+                    <input type="text" placeholder="resultado" name="result" id="result-imp" value ="<?php echo $Result ?>">
                 </div>
             </form>
         </div>

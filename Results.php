@@ -1,11 +1,17 @@
 <?php
 $Mass = $_GET['Mass'];
 $Accel = $_GET['Accel'];
-$Weight = $_GET['Weight'];
-$Math = $_GET['Math'];
-$Result = 0;
+$Result = $_GET['result'];
+$selection = $_GET['selection'];
 
-if($Math == 0){
-    
+if($selection == 0){
+    $Result = $Mass * $Accel;
 }
+
+if($selection == 1 | $selection == 2){
+    $Result = $Mass / $Accel;
+}
+
+
+include "Tippens.php";
 ?>
