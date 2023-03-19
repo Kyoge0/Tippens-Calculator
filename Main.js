@@ -82,3 +82,4 @@ USystem.addEventListener("click", () => {
         Accel.setAttribute("placeholder", "slugs")
     }
 })
+

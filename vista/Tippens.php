@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Calculadora de Tippens</title>
-        <link rel="stylesheet "href="styles.css">
+        <link rel="stylesheet "href="css/styles.css">
         <meta charset="UTF-8">
     </head>
 
@@ -29,7 +29,7 @@
                     <input type="number" step="any" placeholder="m/s²" name="Accel" id="Accel-imp" class="form-imput">
                     <input type="submit" value="Calcular" class="button">
                     <label for="res" class="form-label" class="form-button">Resultado:</label>
-                    <input type="text" placeholder="resultado" name="result" id="result-imp" value ="<?php echo $Result ?>" class="form-imput">
+                    <input type="text" placeholder="resultado" name="result" id="result-imp" value ="<?php echo $Result; ?>" class="form-imput">
                 </div>
             </form>
         </div>

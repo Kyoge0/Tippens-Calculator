@@ -13,6 +13,7 @@ body{
 }
 
 .form{
+    border-radius: 30px;
     width: 350px;
     background: whitesmoke;
     padding: 20px;
@@ -27,25 +28,49 @@ body{
 }
 
 .form-imput{
-    width: 70%;
+    border: 0;
+    border-radius: 7px;
+    padding: 7px;
+    width: 88%;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
+.form-select{
+    border-radius: 7px;
+    width: 88%;
+    padding: 7px;
+    border: 0;
+}
+
 .container-flex{
+    width: 184px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    margin-left: 74px;
+}
+
+.Icontainer-flex{
+    width: 184px;
+    margin-left: 74px;
+}
+
+.radio{
+    color:#3e2e6f;
 }
 
 .button{
     margin-bottom: 20px;
+    margin-left: 33px;
     justify-content: space-around;
     width: 50%;
     background: #3e2e6f;
     padding: 10px;
     border: none;
+    border-radius: 10px;
     color: whitesmoke;
     font-size: 1em;
     margin-top: 10px;
+    box-shadow: 10px #3e2e6f; 
 }
