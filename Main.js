@@ -1,4 +1,5 @@
-//* Variables del sistema de unidades
+function Weight (){
+    //* Variables del sistema de unidades
 const International = document.getElementById("IS")
 const USystem = document.getElementById("US")
 
@@ -82,4 +83,8 @@ USystem.addEventListener("click", () => {
         Accel.setAttribute("placeholder", "slugs")
     }
 })
+}
 
+function PosOne (){
+    
+}

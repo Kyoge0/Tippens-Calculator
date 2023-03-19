@@ -17,20 +17,23 @@
                 </div>
                 <div class="container-flex">
                     <select name="selection" id="selection" class="form-select">
-                        <option value="0" selected>Calculo de peso</option>
-                        <option value="1">Calculo de masa</option>
-                        <option value="2">Calculo de Aceleración</option>
+                        <option value="0" selected>Resolver para X</option>
+                        <option value="1">Resolver para V₀</option>
+                        <option value="2">Resolver para Vf</option>
+                        <option value="3">Resolver para t</option>
                     </select>
                 </div>
                 <div class="Icontainer-flex">
-                    <label for="Mass" id="lbl1" class="form-label">Masa:</label>
-                    <input type="number" step="any" placeholder="Kg" name="Mass" id="Mass-imp" class="form-imput">
-                    <label for="Accel" id="lbl2" class="form-label">Aceleración:</label>
-                    <input type="number" step="any" placeholder="m/s²" name="Accel" id="Accel-imp" class="form-imput">
+                    <label for="Pos" id="lbl1" class="form-label">Posición:</label>
+                    <input type="number" step="any" placeholder="X" name="Pos" id="Pos-imp" class="form-imput">
+                    <label for="V₀" id="lbl2" class="form-label">Velocidad inicial:</label>
+                    <input type="number" step="any" placeholder="m/s²" name="Vel-o" id="o-imp" class="form-imput">
+                    <label for="Vf" id="lbl3" class="form-label">Velocidad final:</label>
+                    <input type="number" step="any" placeholder="m/s²" name="Vel-f" id="f-imp" class="form-imput">
                     <input type="submit" value="Calcular" class="button">
                     <label for="res" class="form-label" class="form-button">Resultado:</label>
-                    <input type="text" placeholder="resultado" name="result" id="result-imp" value ="<?php echo $Result; ?>" class="form-imput">
-                    <input type="number" value="1" name="temp" hidden>
+                    <input type="text" placeholder="resultado" name="result" id="result-imp" value="<?php echo $Result; ?>" class="form-imput">
+                    <input type="number" value="2" name="index" hidden>
                 </div>
             </form>
         </div>
