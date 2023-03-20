@@ -106,7 +106,23 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
     }
 
     if($Index == 6){
+        $Vo = $_GET['Vel-o'];
+        $Vf = $_GET['Vel-f'];
 
+        if($selection == 0){
+            $Result = (($Vo * $Vo) + ($Vf * $Vf));
+        }
+        if($selection == 1){
+            
+        }
+        if($selection == 2){
+            
+        }
+        if($selection == 3){
+            
+        }
+
+        include "vista/Temp-y-Accel.php";
     }
 }
 
