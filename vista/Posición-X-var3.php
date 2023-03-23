@@ -24,7 +24,7 @@
                     </select>
                 </div>
                 <div class="Icontainer-flex">
-                    <label for="V₀" id="lbl1" class="form-label">Velocidad inicial:</label>
+                    <label for="V₀" id="lbl1" class="form-label">Velocidad final:</label>
                     <input type="number" step="any" placeholder="m/s²" name="Vel-o" id="o-imp" class="form-imput">
                     <label for="T" id="lbl2" class="form-label">Tiempo:</label>
                     <input type="number" step="any" placeholder="S" name="T-imp" id="T-imp" class="form-imput">
