@@ -145,4 +145,12 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
     }
 }
 
+    //?Suma de vectores
+    if($Index == 7){
+        if($selection == 1){
+            $Vector1 = $_GET['V-1'];
+            $Angulo1 = $_GET['A-1'];
+        }
+        include "vista/Vectores.php";
+    }
 ?>

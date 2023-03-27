@@ -37,6 +37,6 @@
                 </div>
             </form>
         </div>
-        <script src="Main.js"></script>
+        <script src="JS/Vel-f.js"></script>
     </body>
 </html>

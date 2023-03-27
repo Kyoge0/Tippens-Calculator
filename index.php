@@ -14,6 +14,7 @@
                 <option value="4">Posicion 2</option>
                 <option value="5">Posicion 3</option>
                 <option value="6">Aceleración y posicion</option>
+                <option value="7">Suma vectorial</option>
             </select>
             <input type="submit" value="dirigeme">
         </form>

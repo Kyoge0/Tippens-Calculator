@@ -37,6 +37,6 @@
                 </div>
             </form>
         </div>
-        <script src="Main.js"></script>
+        <script src="JS/Pos-X1.js"></script>
     </body>
 </html>
