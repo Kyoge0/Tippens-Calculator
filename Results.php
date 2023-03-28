@@ -147,10 +147,194 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
 
     //?Suma de vectores
     if($Index == 7){
+        $ResultantX = 0;
+        $ResultantY = 0;
+        $ResultantF = 0;
+        $Polar = 0;
+
         if($selection == 1){
             $Vector1 = $_GET['V-1'];
             $Angulo1 = $_GET['A-1'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo1)) * $Vector1;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo1)) * $Vector1;
         }
+
+        if($selection == 2){
+            $Vector1 = $_GET['V-1'];
+            $Angulo1 = $_GET['A-1'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo1)) * $Vector1;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo1)) * $Vector1;
+
+            $Vector2 = $_GET['V-2'];
+            $Angulo2 = $_GET['A-2'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo2)) * $Vector2;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo2)) * $Vector2;
+        }
+
+        if($selection == 3){
+            $Vector1 = $_GET['V-1'];
+            $Angulo1 = $_GET['A-1'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo1)) * $Vector1;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo1)) * $Vector1;
+
+            $Vector2 = $_GET['V-2'];
+            $Angulo2 = $_GET['A-2'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo2)) * $Vector2;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo2)) * $Vector2;
+
+            $Vector3 = $_GET['V-3'];
+            $Angulo3 = $_GET['A-3'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo3)) * $Vector3;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo3)) * $Vector3;
+        }
+
+        if($selection == 4){
+            $Vector1 = $_GET['V-1'];
+            $Angulo1 = $_GET['A-1'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo1)) * $Vector1;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo1)) * $Vector1;
+
+            $Vector2 = $_GET['V-2'];
+            $Angulo2 = $_GET['A-2'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo2)) * $Vector2;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo2)) * $Vector2;
+
+            $Vector3 = $_GET['V-3'];
+            $Angulo3 = $_GET['A-3'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo3)) * $Vector3;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo3)) * $Vector3;
+
+            $Vector4 = $_GET['V-4'];
+            $Angulo4 = $_GET['A-4'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo4)) * $Vector4;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo4)) * $Vector4;
+        }
+
+        if($selection == 5){
+            $Vector1 = $_GET['V-1'];
+            $Angulo1 = $_GET['A-1'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo1)) * $Vector1;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo1)) * $Vector1;
+
+            $Vector2 = $_GET['V-2'];
+            $Angulo2 = $_GET['A-2'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo2)) * $Vector2;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo2)) * $Vector2;
+
+            $Vector3 = $_GET['V-3'];
+            $Angulo3 = $_GET['A-3'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo3)) * $Vector3;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo3)) * $Vector3;
+
+            $Vector4 = $_GET['V-4'];
+            $Angulo4 = $_GET['A-4'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo4)) * $Vector4;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo4)) * $Vector4;
+            
+            $Vector5 = $_GET['V-5'];
+            $Angulo5 = $_GET['A-5'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo5)) * $Vector5;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo5)) * $Vector5;
+        }
+
+        if($selection == 6){
+            $Vector1 = $_GET['V-1'];
+            $Angulo1 = $_GET['A-1'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo1)) * $Vector1;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo1)) * $Vector1;
+
+            $Vector2 = $_GET['V-2'];
+            $Angulo2 = $_GET['A-2'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo2)) * $Vector2;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo2)) * $Vector2;
+
+            $Vector3 = $_GET['V-3'];
+            $Angulo3 = $_GET['A-3'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo3)) * $Vector3;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo3)) * $Vector3;
+
+            $Vector4 = $_GET['V-4'];
+            $Angulo4 = $_GET['A-4'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo4)) * $Vector4;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo4)) * $Vector4;
+            
+            $Vector5 = $_GET['V-5'];
+            $Angulo5 = $_GET['A-5'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo5)) * $Vector5;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo5)) * $Vector5;
+
+            $Vector6 = $_GET['V-6'];
+            $Angulo6 = $_GET['A-6'];
+
+            $ResultantX = $ResultantX + cos(deg2rad($Angulo6)) * $Vector6;
+            $ResultantY = $ResultantY + sin(deg2rad($Angulo6)) * $Vector6;
+        }
+
+        if($Angulo1 == 90 || $Angulo1 == 270 || $Angulo1 == -90 || $Angulo1 == -270){
+            $ResultantX = $ResultantX - cos(deg2rad($Angulo1)) * $Vector1;
+        }
+        if($Angulo1 == 180 || $Angulo1 == 360 || $Angulo1 == 0 || $Angulo1 == -180 || $Angulo1 == -360){
+            $ResultantY = $ResultantY - sin(deg2rad($Angulo1)) * $Vector1;
+        }
+
+        if($Angulo2 == 90 || $Angulo2 == 270 || $Angulo2 == -90 || $Angulo2 == -270){
+            $ResultantX = $ResultantX - cos(deg2rad($Angulo2)) * $Vector2;
+        }
+        if($Angulo2 == 180 || $Angulo2 == 360 || $Angulo2 == 0 || $Angulo2 == -180 || $Angulo2 == -360){
+            $ResultantY = $ResultantY - sin(deg2rad($Angulo2)) * $Vector2;
+        }
+
+        if($Angulo3 == 90 || $Angulo3 == 270 || $Angulo3 == -90 || $Angulo3 == -270){
+            $ResultantX = $ResultantX - cos(deg2rad($Angulo3)) * $Vector3;
+        }
+        if($Angulo3 == 180 || $Angulo3 == 360 || $Angulo3 == 0 || $Angulo3 == -180 || $Angulo3 == -360){
+            $ResultantY = $ResultantY - sin(deg2rad($Angulo3)) * $Vector3;
+        }
+
+        if($Angulo4 == 90 || $Angulo4 == 270 || $Angulo4 == -90 || $Angulo4 == -270){
+            $ResultantX = $ResultantX - cos(deg2rad($Angulo4)) * $Vector4;
+        }
+        if($Angulo4 == 180 || $Angulo4 == 360 || $Angulo4 == 0 || $Angulo4 == -180 || $Angulo4 == -360){
+            $ResultantY = $ResultantY - sin(deg2rad($Angulo4)) * $Vector4;
+        }
+
+        if($Angulo5 == 90 || $Angulo5 == 270 || $Angulo5 == -90 || $Angulo5 == -270){
+            $ResultantX = $ResultantX - cos(deg2rad($Angulo5)) * $Vector5;
+        }
+        if($Angulo5 == 180 || $Angulo5 == 360 || $Angulo5 == 0 || $Angulo5 == -180 || $Angulo5 == -360){
+            $ResultantY = $ResultantY - sin(deg2rad($Angulo5)) * $Vector5;
+        }
+
+        if($Angulo6 == 90 || $Angulo6 == 270 || $Angulo6 == -90 || $Angulo6 == -270){
+            $ResultantX = $ResultantX - cos(deg2rad($Angulo6)) * $Vector6;
+        }
+        if($Angulo6 == 180 || $Angulo6 == 360 || $Angulo6 == 0 || $Angulo6 == -180 || $Angulo6 == -360){
+            $ResultantY = $ResultantY - sin(deg2rad($Angulo6)) * $Vector6;
+        }
+
+        $Value = pow($ResultantX, 2) + pow($ResultantY, 2);
+        $ResultantF = sqrt($Value);
+        $Polar = rad2deg(atan2($ResultantX,$ResultantY));
         include "vista/Vectores.php";
     }
 ?>
